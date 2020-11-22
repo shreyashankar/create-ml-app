@@ -1,8 +1,6 @@
 # create-ml-app
 
-Template Makefile for ML projects in Python.
-
-`create-ml-app` makes it easier to spin up a machine learning project locally in Python and handle various package dependencies. To use, simply fork the Makefile and `setup.py` in this repository.
+`create-ml-app` makes it easier to spin up a machine learning project locally in Python and handle various package dependencies. The name is inspired by [`create-react-app`](create react app). To use, simply fork the Makefile and `setup.py` in this repository.
 
 ## Motivation
 
@@ -17,4 +15,4 @@ Under the hood, this project uses `venv` to create a virtual environment and ins
 * `make lint`: This will show errors as flagged by pylint.
 * `make run`: This will download any new packages found in `setup.py` and run `main.py` with user-specified variables. You may need to modify the Makefile to include variables of your choice and change the `run` definition to run your Python file with your specified variables.
 
-If you want to use any Python package in your project, add the package name to `setup.py`.
+If you want to use any Python package in your project, simply add the package name to `setup.py` and it will get installed the next time you execute `make run` from your shell.
