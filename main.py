@@ -6,7 +6,7 @@ import torch
 import torchvision
 
 # Parse arguments
-parser = argparse.ArgumentParser(description='Set random seed.')
+parser = argparse.ArgumentParser(description='Parameters.')
 parser.add_argument('--seed', type=int, default=42)
 parser.add_argument('--num_epochs', type=int, default=15)
 parser.add_argument('--input_dim', type=int, default=784)
