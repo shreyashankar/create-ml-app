@@ -1,6 +1,6 @@
 # create-ml-app
 
-`create-ml-app` makes it easier to spin up a machine learning project locally in Python and handle various package dependencies. The name is inspired by [`create-react-app`](https://github.com/facebook/create-react-app). To use, simply fork this repository and execute `make run` from your shell.
+`create-ml-app` makes it easier to spin up a machine learning project locally in Python and handle various package dependencies. The name is inspired by [`create-react-app`](https://github.com/facebook/create-react-app). To use, simply fork this repository and execute `make run` from your shell. The `main.py` file in this repo has an example ML script (training a neural network on MNIST in PyTorch).
 
 ## Motivation
 
