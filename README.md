@@ -23,3 +23,9 @@ Under the hood, this project uses `venv` to create a virtual environment and ins
 * `make run`: This will download any new packages found in `setup.py` and run `main.py` with user-specified variables. You may need to modify the Makefile to include variables of your choice and change the `run` definition to run your Python file with your specified variables.
 
 If you want to use any Python package in your project, simply add the package name to `setup.py` and it will get installed the next time you execute `make run` from your shell.
+
+## Usage
+
+    git clone https://github.com/shreyashankar/create-ml-app.git my-ml-app
+    cd my-ml-app
+    make run
